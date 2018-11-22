@@ -3,7 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // Modules
 import { PagesModule } from './pages/pages.module';
+
+// Temporal
 import { FormsModule } from '@angular/forms';
+
+// Services
+import { ServiceModule } from './services/service.module';
 
 // Routes
 import { APP_ROUTES } from './app.routes';
@@ -24,7 +29,7 @@ import { RegisterComponent } from './login/register.component';
     PagesModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ServiceModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

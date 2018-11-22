@@ -18,6 +18,7 @@ import { Graphic1Component } from './graphic1/graphic1.component';
 // Temporal
 import { IncrementerComponent } from '../components/incrementer/incrementer.component';
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -28,7 +29,8 @@ import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic
     ProgressComponent,
     Graphic1Component,
     IncrementerComponent,
-    GraphicDoughnutComponent
+    GraphicDoughnutComponent,
+    AccountSettingsComponent
   ],
   exports: [
     PagesComponent,
