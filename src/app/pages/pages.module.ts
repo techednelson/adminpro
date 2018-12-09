@@ -19,6 +19,8 @@ import { Graphic1Component } from './graphic1/graphic1.component';
 import { IncrementerComponent } from '../components/incrementer/incrementer.component';
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -30,7 +32,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graphic1Component,
     IncrementerComponent,
     GraphicDoughnutComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     PagesComponent,
